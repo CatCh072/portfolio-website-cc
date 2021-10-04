@@ -4,7 +4,7 @@ body{
     font-size: 16px; /* Sets the font size to 16px */
     font-weight: 400; /* Sets the font weight to 700 */
     line-height: 1.6; /* Sets the line-height to 1.5* the font-size */
-    color: #000000;
+    color: #191919;
 }
 
 h1, h2, h3, h4 {
@@ -33,33 +33,33 @@ image {
 }
 
 a {
-    color: #ff7f50;
-    text-decoration: none; /* No underlining */
+    color: #000000;
+    text-decoration: none; /* no underlining */
 }
 a:visited { /* visited link */
-    color: #ff7f50;
+    color: #7f7f7f;
 }
 a:hover {
-    color: #cc6540;
-    text-decoration: underline; /* Underlining when hovering over a link */
+    color: #191919;
+    font-size: 135%; /* enlarge text when hovering over a link */
 }
 a:active { /* selected link */
-    color: #994c30;
+    color: #000000;
 }
 a:focus {
-    color: #cc6540;
+    color: #191919;
     text-decoration: underline;
 }
 
 
 .button {
     display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block */
-    background-color: #ff7f50;
-    color: #ffffff; /* needed to override the default link color */
+    background-color: #e5e5e5;
+    color: #000000; /* needed to override the default link color */
     font-weight: 400;
     padding: 10px;
     border-radius: 3px;
-    border-bottom: 2px solid #994c30; /* width of the border, type, color */
+    border-bottom: 2px solid #191919; /* width of the border, type, color */
     transition: .2s opacity;
 }
 .button:hover {
@@ -70,19 +70,22 @@ a:focus {
 
 .button.contact {
     background-color: transparent;
-    color: #ff7f50;
+    color: #191919;
     text-transform: uppercase;
-    border: 2px solid #ff7f50;
+    border: 2px solid #191919;
 }
 .button.contact:hover {
-    background-color: #ff7f50;
+    background-color: #191919;
     color: #ffffff;
 }
 
 
 /*
 Colors used:
-Primary Color (Black): #000000
+Primary Color (almost Black): #191919
 Primary Color (White): #ffffff
-Secondary Color (Gray80): #cccccc
+Secondary Color (hint of Gray): #e5e5e5
+Secondary Color  (Gray):#7f7f7f
+Tertiary Color (Black): #000000
+Tertiary Color (light Gray): #cccccc
 */
