@@ -2,8 +2,8 @@ body{
     background-color: #ffffff;
     font-family: 'Noto Sans', sans-serif;
     font-size: 16px; /* Sets the font size to 16px */
-    font-weight: 400; /* Sets the font weight to 400 */
-    line-height: 1.6; /* Sets the line-height to 1.6* the font-size */
+    font-weight: 400; /* Sets the font weight to 700 */
+    line-height: 1.6; /* Sets the line-height to 1.5* the font-size */
     color: #191919;
 }
 
