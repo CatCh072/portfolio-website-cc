@@ -16,24 +16,23 @@
         <!-- social media icons -->
         <script src="https://kit.fontawesome.com/1da6c55f42.js" crossorigin="anonymous"></script>
         <!-- viewport -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <!-- css -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-   
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
     </head>
 
     <body>
         <!-- For the header -->
         <header>
             <!-- For the navigation -->
-            <div>
-                <img src="img/cc-logo.png" alt="C" />
+            <div class="container">
+                <img class="logo" src="img/cc-logo.png" alt="C" />
                 <nav>
-                    <ul>
+                    <ul class="navigation">
                         <li><a href="index.html">Work</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="#contact">Contact</a></li>
@@ -44,97 +43,101 @@
 
         <main>
             <!-- For the hero section -->
-            <div>
-                <h3>Hello!</h3>
-                <h1>I'm Catherine,</h1>
-                <h1>a Product/UX designer from New York City.</h1>
-                <span></span>
-                <p></p>
+            <div id="hero">
+                <div class="container">
+                    <h3>Hello!</h3>
+                    <h1>I'm Catherine,</h1>
+                    <h1>a Product/UX designer from New York City.</h1>
+                </div>
             </div>
 
             <!-- For your work/projects -->
-            <h2>Featured works</h2>
-            <div class="row">
-                <!-- open row that holds (2) columns for project -->
-                <div class="column">
-                    <!-- open first column (used for image) -->
-                    <picture>
-                        <img src="img/olive_on_phone.png" alt="My Image" />
-                    </picture>
+            <div id="work">
+                <h2>Featured works</h2>
+                <!-- work section -->
+                <div class="container">
+                    <!-- open row that holds (2) columns for project -->
+                    <div class="row">
+                        <!-- open first column (used for image) -->
+                        <picture>
+                            <img class="olivehero" src="img/olive_on_phone.png" alt="My Image" />
+                        </picture>
+                    </div>
+                    <!-- end first column -->
+                    <div class="row">
+                        <!-- open second column (used for text) -->
+                        <p>project</p>
+                        <h3>Olive</h3>
+                        <!-- heading for the project -->
+                        <p>
+                            <!-- open paragraph-project intro -->
+                            Personalized health reminders
+                        </p>
+                        <!--end paragraph -->
+                        <p>
+                            <!-- open paragraph(optional) -->
+                            <a href="about.html#skills"> Skills </a>
+                        </p>
+                        <!--end paragraph -->
+                        <a href="olive.html" class="button"> Read more</a>
+                        <!-- button or link label -->
+                    </div>
+                    <!-- end second column -->
                 </div>
-                <!-- end first column -->
+                <!-- end row that holds (2) columns for project -->
 
-                <div class="column">
-                    <!-- open second column (used for text) -->
-                    <p>project</p>
-                    <h3>Olive</h3>
-                    <!-- heading for the project -->
-                    <p>
-                        <!-- open paragraph-project intro -->
-                        Personalized health reminders
-                    </p>
-                    <!--end paragraph -->
-                    <p>
-                        <!-- open paragraph(optional) -->
-                        <a href="about.html#skills"> Skills </a>
-                    </p>
-                    <!--end paragraph -->
-                    <a href="olive.html" class="button"> Read more</a>
-                    <!-- button or link label -->
+                <div class="container">
+                    <!-- open row that holds (2) columns for second project -->
+                    <div class="row">
+                        <!-- open first column -->
+                        <p>case study</p>
+                        <h3>Word Book</h3>
+                        <!-- heading for project -->
+                        <p>
+                            <!-- open paragraph-project intro -->
+                            A vocabulary app for children
+                        </p>
+                        <!-- end paragraph -->
+                        <p>
+                            <!-- open paragraph(optional) -->
+                            <a href="about.html#skills"> Skills </a>
+                        </p>
+                        <!--end paragraph -->
+                        <a href="#" class="button"> Read more</a>
+                        <!-- button or link label -->
+                    </div>
+                    <!-- end first column -->
+                    <div class="row">
+                        <!-- open second column -->
+                        <picture>
+                            <img class="wbhero" src="img/wordbook/wb-logo/wb-logo-vec.png" alt="My Image" />
+                        </picture>
+                    </div>
+                    <!-- end second column -->
                 </div>
-                <!-- end second column -->
+                <!-- end row that holds (2) columns for second project -->
             </div>
-            <!-- end row that holds (2) columns for project -->
-            <br />
-            <div class="row">
-                <!-- open row that holds (2) columns for second project -->
-                <div class="column">
-                    <!-- open first column -->
-                    <p>case study</p>
-                    <h3>Word Book</h3>
-                    <!-- heading for project -->
-                    <p>
-                        <!-- open paragraph-project intro -->
-                        A vocabulary app for children
-                    </p>
-                    <!-- end paragraph -->
-                    <p>
-                        <!-- open paragraph(optional) -->
-                        <a href="about.html#skills"> Skills </a>
-                    </p>
-                    <!--end paragraph -->
-                    <a href="#" class="button"> Read more</a>
-                    <!-- button or link label -->
-                </div>
-                <!-- end first column -->
-                <div class="column">
-                    <!-- open second column -->
-                    <picture>
-                        <img src="img/wordbook/wb-logo/wb-logo-vec.png" alt="My Image" />
-                    </picture>
-                </div>
-                <!-- end second column -->
-            </div>
-            <!-- end row that holds (2) columns for second project -->
         </main>
 
         <!-- For the footer -->
         <footer id="contact">
-            <h2>Get in Touch</h2>
-            <p>Do you like my work and want to discuss opportunities? Please get in touch. Call: <a href="tel:123-456-7890">123-456-7890</a> or Skype me at <a href="skype:hello.careerfoundry">hello.careerfoundry</a></p>
-            <div>
-                <a href="mailto:office@careerfoundry.com" class="button contact">Email me</a>
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <p>Do you like my work and want to discuss opportunities? Please get in touch. Call: <a href="tel:123-456-7890">123-456-7890</a> or Skype me at <a href="skype:hello.careerfoundry">hello.careerfoundry</a></p>
+                <div>
+                    <a href="mailto:office@careerfoundry.com" class="button contact">Email me</a>
+                </div>
+                <!-- Social Media Layout -->
+                <div>
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <i class="fab fa-linkedin-in" style="font-size: 22px;"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank">
+                        <i class="fab fa-twitter" style="font-size: 22px;"></i>
+                    </a>
+                </div>
+                <p>Copyright NAME 2021</p>
             </div>
-            <!-- Social Media Layout and Placeholders -->
-            <div>
-                <a href="https://www.linkedin.com" target="_blank">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <a href="https://twitter.com" target="_blank">
-                    <i class="fab fa-twitter"></i>
-                </a>
-            </div>
-            <p>Copyright NAME 2021</p>
         </footer>
     </body>
 </html>

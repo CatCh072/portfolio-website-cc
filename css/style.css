@@ -1,82 +1,104 @@
-body{
-    background-color: #ffffff;
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 16px; /* Sets the font size to 16px */
-    font-weight: 400; /* Sets the font weight to 400 */
-    line-height: 1.6; /* Sets the line-height to 1.6* the font-size */
-    color: #191919;
+body {
+	background-color: #ffffff;
+	font-family: "Noto Sans", sans-serif;
+	font-size: 16px;
+	/* Sets the font size to 16px */
+	font-weight: 400;
+	/* Sets the font weight to 400 */
+	line-height: 1.6;
+	/* Sets the line-height to 1.6* the font-size */
+	color: #191919;
 }
 
-h1, h2, h3, h4 {
-    line-height: 1.4;
-}  
+h1,
+h2,
+h3,
+h4 {
+	line-height: 1.4;
+}
+
 h1 {
-    font-size: 2.75em;
-    font-weight: 700;
+	font-size: 2.75em;
+	font-weight: 700;
 }
 
 h2 {
-    font-size: 2.25em;
-    font-weight: 700;
+	font-size: 2.25em;
+	font-weight: 700;
 }
 
 h3 {
-    font-size: 1.75em;
-    font-weight: 400;
+	font-size: 1.75em;
+	font-weight: 400;
 }
+
 h4 {
-    font-size: 1.35em;
-    font-weight: 400;
+	font-size: 1.35em;
+	font-weight: 400;
 }
-image {
-    width: 100%;
+
+img {
+	width: 100%;
+	height: auto;
 }
 
 a {
-    color: #000000;
-    text-decoration: none; /* no underlining */
-}
-a:visited { /* visited link */
-    color: #7f7f7f;
-}
-a:hover {
-    color: #191919;
-    font-size: 135%; /* enlarge text when hovering over a link */
-}
-a:active { /* selected link */
-    color: #000000;
-}
-a:focus {
-    color: #191919;
-    text-decoration: underline;
+	color: #000000;
+	text-decoration: none;
+	/* no underlining */
 }
 
+a:visited {
+	/* visited link */
+	color: #7f7f7f;
+}
+
+a:hover {
+	color: #191919;
+	font-size: 135%;
+	/* enlarge text when hovering over a link */
+}
+
+a:active {
+	/* selected link */
+	color: #000000;
+}
+
+a:focus {
+	color: #191919;
+	text-decoration: underline;
+}
 
 .button {
-    display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block */
-    background-color: #e5e5e5;
-    color: #000000; /* needed to override the default link color */
-    font-weight: 400;
-    padding: 10px;
-    border-radius: 3px;
-    border-bottom: 2px solid #191919; /* width of the border, type, color */
-    transition: .2s opacity;
-}
-.button:hover {
-    opacity: 0.8;  /* reduces the opacity of the button to 80% */
-    text-decoration: none;
+	display: inline-block;
+	/* since the <a> tag is inline by default, we need to change this to inline-block */
+	background-color: #e5e5e5;
+	color: #000000;
+	/* needed to override the default link color */
+	font-weight: 400;
+	padding: 10px;
+	border-radius: 3px;
+	border-bottom: 2px solid #191919;
+	/* width of the border, type, color */
+	transition: 0.2s opacity;
 }
 
+.button:hover {
+	opacity: 0.8;
+	/* reduces the opacity of the button to 80% */
+	text-decoration: none;
+}
 
 .button.contact {
-    background-color: transparent;
-    color: #191919;
-    text-transform: uppercase;
-    border: 2px solid #191919;
+	background-color: #e5e5e5;
+	color: #191919;
+	text-transform: uppercase;
+	border: 2px solid #7f7f7f;
 }
+
 .button.contact:hover {
-    background-color: #191919;
-    color: #ffffff;
+	background-color: #191919;
+	color: #ffffff;
 }
 
 
@@ -89,3 +111,107 @@ Secondary Color  (Gray):#7f7f7f
 Tertiary Color (Black): #000000
 Tertiary Color (light Gray): #cccccc
 */
+
+
+/* Layout styling */
+
+.container {
+	padding: 0 15px;
+}
+
+.row {
+	margin: 25px 0;
+	/* 25px top and bottom, 0 left and right */
+}
+
+#work .row {
+	padding-bottom: 25px;
+	border-bottom: 1px solid #4a4a4a;
+}
+
+.center {
+	text-align: center;
+	/* content to be centered */
+}
+
+.logo {
+	max-width: 70px;
+	text-align: center;
+}
+
+header {
+	background-color: #e5e5e5;
+	text-align: center;
+	padding: 10px 0;
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+	/* box shadow */
+	position: fixed;
+	display: inline-block;
+	width: 100%;
+}
+
+nav>ul {
+	list-style-type: none;
+	/* removes bullets */
+	padding: 0;
+	display: inline-block;
+	width: 100%;
+}
+
+nav>ul>li {
+	display: inline-block;
+	/* list elements in unordered list within nav */
+}
+
+nav>ul>li>a {
+	padding: 0 15px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #7f7f7f;
+}
+
+#hero {
+	background-color: #e5e5e5;
+	padding: 100px 0;
+	/* add top and bottom padding to override normalize 0.67em margin */
+	display: inline-block;
+	/* to ensure that the margins of every element in "hero" will only affect elements inside "hero" */
+	width: 100%;
+	/* to ensure "hero" will expand to full width when expanded. */
+}
+
+#hero h1,
+h2,
+h3 {
+	text-align: center;
+	/* Centers text */
+}
+
+main {
+	padding-top: 133px;
+}
+
+ul.b {
+	list-style-type: square;
+}
+
+#oliveintro span {
+	vertical-align: middle;
+}
+
+#oliveproject h3,
+h4 {
+	text-align: left;
+	display: inline;
+	padding: 0;
+}
+
+#oliveproject span {
+	display: block;
+}
+
+#oliveproblem h3 {
+	text-align: left;
+}
