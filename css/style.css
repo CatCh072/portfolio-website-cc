@@ -127,11 +127,11 @@ Tertiary Color (light Gray): #cccccc
 }
 
 .row {
-	margin: 25px 0;
+	margin: 35px 0;
 	/* 25px top and bottom, 0 left and right */
 }
 
-#work1, #work2 {
+.work {
 	border-bottom: 1px solid #4a4a4a;
 	margin: 25px;
 }
@@ -273,6 +273,18 @@ svg #draw {
 	to {stroke-dashoffset: 1000}
 }
 
+[class*="col-"] {
+	float: left;
+}
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+	width: auto;
+}
+.project-wrapper {
+	padding: 20px;
+}
 
 /* ==============================
 Medium devices (640px and larger)
@@ -303,50 +315,23 @@ Medium devices (640px and larger)
 	.col-md-6 {
 		width: 50%;
 	}
-	[class*="col-"] {
-		float: left;
-		padding: 10px;
-	}
-	.row::after {
-		content: "";
-		clear: both;
-		display: table;
-		width: auto;
-	}
+
 	.container {
 		max-width: 1200px;
 		margin-left: auto;
 		margin-right: auto;
 	}
-	.work-1, 
-	.work-2 {
+	.work {
 		display: inline-block;
 	}
-	.row1,
-	.row2 {
-		width: 260px;
-		height: auto;
-	}
-	.row3,
-	.row4 {
-		width: 285px;
-		height:auto;
-	}
 
-	#olivepic {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		height: 343px;
-	}
-	#wbpic {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		height: 315px;
-	}
 	footer {
 		width: screen;
+	}
+	.left-col, .center-col, .right-col {
+		width: 28%;
+		display: inline-block;
+		padding: 10px;
 	}
 }
 
@@ -368,31 +353,5 @@ Large devices (1024px or larger)
 	}
 	body {
 		  font-size: 20px;
-	}
-	.row1,
-	.row2 {
-		width: 470px;
-		height: auto;
-	}
-	.row3,
-	.row4 {
-		width: 490px;
-		height:auto;
-	}
-	.work-1,
-	.work-2 {
-		height: 500px;
-	}
-	#olivepic {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		height: 350px;
-	}
-	#wbpic {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		height: 450px;
 	}
 }
