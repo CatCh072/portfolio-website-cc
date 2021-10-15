@@ -1,113 +1,112 @@
 body {
-	background-color: #ffffff;
-	font-family: "Noto Sans", sans-serif;
-	font-size: 16px;
-	/* Sets the font size to 16px */
-	font-weight: 400;
-	/* Sets the font weight to 400 */
-	line-height: 1.6;
-	/* Sets the line-height to 1.6* the font-size */
-	color: #191919;
+    background-color: #ffffff;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    /* Sets the font size to 16px */
+    font-weight: 400;
+    /* Sets the font weight to 400 */
+    line-height: 1.6;
+    /* Sets the line-height to 1.6* the font-size */
+    color: #191919;
 }
 
 h1,
 h2,
 h3,
 h4 {
-	line-height: 1.4;
+    line-height: 1.4;
 }
 
 h1 {
-	font-size: 2.75em;
-	font-weight: 700;
+    font-size: 2.75em;
+    font-weight: 700;
 }
 
 h2 {
-	font-size: 2.25em;
-	font-weight: 700;
+    font-size: 2.25em;
+    font-weight: 700;
 }
 
 h3 {
-	font-size: 1.75em;
-	font-weight: 400;
+    font-size: 1.75em;
+    font-weight: 400;
 }
 
 h4 {
-	font-size: 1.35em;
-	font-weight: 400;
+    font-size: 1.35em;
+    font-weight: 400;
 }
 
 img {
-	width: 100%;
-	height: auto;
+    width: 100%;
+    height: auto;
 }
 
 a {
-	color: #000000;
-	text-decoration: none;
-	/* no underlining */
+    color: #000000;
+    text-decoration: none;
+    /* no underlining */
 }
 #footer {
-	position: relative;
-	height: 100px;
-	margin-top: -100px;
-	clear: both;
+    position: relative;
+    height: 100px;
+    margin-top: -100px;
+    clear: both;
 }
 
 a:visited {
-	/* visited link */
-	color: #7f7f7f;
+    /* visited link */
+    color: #7f7f7f;
 }
 
 a:hover {
-	color: #191919;
-	font-size: 135%;
-	/* enlarge text when hovering over a link */
+    color: #191919;
+    font-size: 135%;
+    /* enlarge text when hovering over a link */
 }
 
 a:active {
-	/* selected link */
-	color: #000000;
+    /* selected link */
+    color: #000000;
 }
 
 a:focus {
-	color: #191919;
-	text-decoration: underline;
+    color: #191919;
+    text-decoration: underline;
 }
 
 .button {
-	display: inline-block;
-	/* since the <a> tag is inline by default, we need to change this to inline-block */
-	background-color: #e5e5e5;
-	color: #000000;
-	/* needed to override the default link color */
-	font-weight: 400;
-	text-decoration: none;
-	padding: 10px;
-	border-radius: 3px;
-	border-bottom: 2px solid #191919;
-	/* width of the border, type, color */
-	transition: opacity 0.2s ease;
+    display: inline-block;
+    /* since the <a> tag is inline by default, we need to change this to inline-block */
+    background-color: #e5e5e5;
+    color: #000000;
+    /* needed to override the default link color */
+    font-weight: 400;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid #191919;
+    /* width of the border, type, color */
+    transition: opacity 0.2s ease;
 }
 
 .button:hover {
-	opacity: 0.8;
-	/* reduces the opacity of the button to 80% */
-	text-decoration: none;
+    opacity: 0.8;
+    /* reduces the opacity of the button to 80% */
+    text-decoration: none;
 }
 
 .button.contact {
-	background-color: #e5e5e5;
-	color: #191919;
-	text-transform: uppercase;
-	border: 2px solid #7f7f7f;
+    background-color: #e5e5e5;
+    color: #191919;
+    text-transform: uppercase;
+    border: 2px solid #7f7f7f;
 }
 
 .button.contact:hover {
-	background-color: #191919;
-	color: #ffffff;
+    background-color: #191919;
+    color: #ffffff;
 }
-
 
 /*
 Colors used:
@@ -119,76 +118,73 @@ Tertiary Color (Black): #000000
 Tertiary Color (light Gray): #cccccc
 */
 
-
 /* Layout styling */
 
 .container {
-	padding: 0 15px;
+    padding: 0 25px;
 }
 
 .row {
-	margin: 35px 0;
-	/* 25px top and bottom, 0 left and right */
+    margin: 35px 0;
+    /* 35px top and bottom, 0 left and right */
 }
 
 .work {
-	border-bottom: 1px solid #4a4a4a;
-	margin: 25px;
+    margin: 25px;
 }
 
 .center {
-	text-align: center;
-	/* content to be centered */
+    text-align: center;
+    /* content to be centered */
 }
 
 .logo {
-	max-width: 50px;
-	float: left;
+    max-width: 50px;
+    float: left;
 }
 
 header {
-	background-color: #e5e5e5;
-	text-align: center;
-	padding: 10px 0;
-	-webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
-	-moz-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
-	box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
-	/* box shadow */
-	position: fixed;
-	display: inline-block;
-	width: 100%;
+    background-color: #e5e5e5;
+    text-align: center;
+    padding: 10px 0;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    /* box shadow */
+    position: fixed;
+    display: inline-block;
+    width: 100%;
 }
 
 nav {
     float: right;
 }
-nav>ul {
-	list-style-type: none;
-	/* removes bullets */
-	padding: 0;
-	display: inline-block;
-	width: 100%;
+nav > ul {
+    list-style-type: none;
+    /* removes bullets */
+    padding: 0;
+    display: inline-block;
+    width: 100%;
 }
 
-nav>ul>li {
-	display: inline-block;
-	/* list elements in unordered list within nav */
+nav > ul > li {
+    display: inline-block;
+    /* list elements in unordered list within nav */
 }
 
-nav>ul>li>a {
-	padding: 0 15px;
-	text-transform: uppercase;
-	font-weight: 700;
-	color: #7f7f7f;
+nav > ul > li > a {
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #7f7f7f;
 }
 /* Highlight text out  */
-div.highlightTextOut a
-{
-    color: #191919; 
+div.highlightTextOut a {
+    color: #191919;
 }
 
-div.highlightTextOut a:before, div.highlightTextIn a:before
-{
+div.highlightTextOut a:before,
+div.highlightTextIn a:before {
     position: absolute;
     color: #191919;
     top: 0px;
@@ -199,159 +195,172 @@ div.highlightTextOut a:before, div.highlightTextIn a:before
     transition: all 0.8s;
     transform: scale(0.8);
     opacity: 0;
-} 
+}
 
-div.highlightTextOut a:hover:before, div.highlightTextIn a:hover:before
-{
+div.highlightTextOut a:hover:before,
+div.highlightTextIn a:hover:before {
     transform: scale(1);
     opacity: 1;
 }
 
-
 #hero {
-	background-color: #e5e5e5;
+    background-color: #e5e5e5;
+    padding: 100px 0;
+    /* add top and bottom padding to override normalize 0.67em margin */
+    display: inline-block;
+    /* to ensure that the margins of every element in "hero" will only affect elements inside "hero" */
+    width: 100%;
+    /* to ensure "hero" will expand to full width when expanded. */
+}
+#hero2 {
 	padding: 100px 0;
-	/* add top and bottom padding to override normalize 0.67em margin */
-	display: inline-block;
-	/* to ensure that the margins of every element in "hero" will only affect elements inside "hero" */
-	width: 100%;
-	/* to ensure "hero" will expand to full width when expanded. */
+    /* add top and bottom padding to override normalize 0.67em margin */
+    display: inline-block;
+    /* to ensure that the margins of every element in "hero" will only affect elements inside "hero" */
+    width: 100%;
+    /* to ensure "hero" will expand to full width when expanded. */
 }
 
-#hero h1,
+#hero, #hero2 h1,
 h2,
 h3 {
-	text-align: center;
-	/* Centers text */
+    text-align: center;
+    /* Centers text */
 }
 
 main {
-	padding-top: 133px;
+    padding-top: 110px;
 }
 
 ul.b {
-	list-style-type: square;
+    list-style-type: square;
 }
 
 #oliveintro span {
-	vertical-align: middle;
+    vertical-align: middle;
 }
 
 #oliveproject h3,
 h4 {
-	text-align: left;
-	display: inline;
-	padding: 0;
+    text-align: left;
+    display: inline;
+    padding: 0;
 }
 
 #oliveproject span {
-	display: block;
+    display: block;
 }
 
 #oliveproblem h3 {
-	text-align: left;
+    text-align: left;
 }
 #animation {
-	text-align: center;
-	padding-bottom: 75px;
-	width: 100%;
-	max-width: 100%;
-	height: auto;
+    text-align: center;
+    padding-bottom: 75px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 /*// Elements to Animate //*/
 
 svg #draw {
-	stroke-dasharray: 500;
-	stroke-dashoffset: 500;
-	animation: line-anim 8s ease forwards;
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    animation: line-anim 8s ease forwards;
 }
 
 /*// Keyframes //*/
 
 @keyframes line-anim {
-	from {stroke-dashoffset: 0}
-	to {stroke-dashoffset: 1000}
+    from {
+        stroke-dashoffset: 0;
+    }
+    to {
+        stroke-dashoffset: 1000;
+    }
 }
 
 [class*="col-"] {
-	float: left;
+    float: left;
 }
 .row::after {
-	content: "";
-	clear: both;
-	display: table;
-	width: auto;
+    content: "";
+    clear: both;
+    display: table;
+    width: auto;
 }
 .project-wrapper {
-	padding: 20px;
+    padding: 20px;
 }
 
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
-	header {
-	  text-align: unset;
-	  padding: 20px 0 13px;
-	}
-	nav {
-	  width: auto;
-	  float: right;
-	  margin-top: 4px;
-	}
-	main {
-		padding-top: 10px;
-	}
-	body {
-		font-size: 18px;
-	}
-	#hero span {
-		display: block;
-	}
+    header {
+        text-align: unset;
+        padding: 20px 0 13px;
+    }
+    nav {
+        width: auto;
+        float: right;
+        margin-top: 4px;
+    }
+    main {
+        padding-top: 10px;
+    }
+    body {
+        font-size: 18px;
+    }
+    #hero span {
+        display: block;
+    }
 
-	#animation {
-		display: block;
-	}
-	.col-md-6 {
-		width: 50%;
-	}
+    #animation {
+        display: block;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
 
-	.container {
-		max-width: 1200px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	.work {
-		display: inline-block;
-	}
+    .container {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .work {
+        display: inline-block;
+    }
 
-	footer {
-		width: screen;
-	}
-	.left-col, .center-col, .right-col {
-		width: 28%;
-		display: inline-block;
-		padding: 10px;
-	}
+    footer {
+        width: screen;
+    }
+    .left-col,
+    .center-col,
+    .right-col {
+        width: 28%;
+        display: inline-block;
+        padding: 10px;
+    }
 }
 
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
-	header {
-		text-align: unset;
-		padding: 20px 0 13px;
-	}
-	nav {
-		width: auto;
-		float: right;
-		margin-top: 4px;
-	}
-	main {
-		  padding-top: 10px;
-	}
-	body {
-		  font-size: 20px;
-	}
+    header {
+        text-align: unset;
+        padding: 20px 0 13px;
+    }
+    nav {
+        width: auto;
+        float: right;
+        margin-top: 4px;
+    }
+    main {
+        padding-top: 10px;
+    }
+    body {
+        font-size: 20px;
+    }
 }
