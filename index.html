@@ -13,7 +13,7 @@
         <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
-        <!-- social media icons -->
+        <!-- social media icons and menu bar icon-->
         <script src="https://kit.fontawesome.com/1da6c55f42.js" crossorigin="anonymous"></script>
         <!-- viewport -->
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -30,14 +30,17 @@
         <header>
             <!-- For the navigation -->
             <div class="container highlightTextOut">
-                <img class="logo" src="img/cc-logo.png" alt="C" />
-                <nav>
-                    <ul class="navigation">
-                        <li><a href="index.html">Work</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
+                <div class="navtoggle" id="myNavtoggle">
+                    <img class="logo" src="img/logo-sq.png" alt="C" />
+                    <nav>
+                        <ul class="navigation">
+                            <li><a href="index.html">Work</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+                            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </header>
 
@@ -66,7 +69,6 @@
                     <div class="col-md-6 col-lg-5">
                         <div class="project-wrapper">
                             <!-- open second column (used for text) -->
-                            <p>project</p>
                             <h3>Olive</h3>
                             <!-- heading for the project -->
                             <p>
@@ -92,7 +94,6 @@
                     <div class="col-md-6 col-lg-5">
                         <div class="project-wrapper">
                         <!-- open first column -->
-                            <p>case study</p>
                             <h3>Word Book</h3>
                             <!-- heading for project -->
                             <p>
@@ -186,6 +187,7 @@
             </div>
         </footer>
 
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="js/scripts.js"></script>
     </body>
 </html>
