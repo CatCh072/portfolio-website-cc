@@ -178,6 +178,7 @@ nav > ul > li > a {
 .navtoggle, .navtoggle.responsive {
     position: relative;
 }
+/* hamburger menu */
 .navtoggle li .icon {
     position: absolute;
     right: 0;
@@ -340,12 +341,13 @@ Medium devices (640px and larger)
         min-width: 80px;
         /* list elements in unordered list within nav */
     }
+    nav > ul > li > a {
+        text-decoration: none;
+    }
     .navtoggle li:not(:last-child) {
         display: inline-block;
     }
-    .navtoggle li:last-child {
-        display: none;
-    }
+   
     .logo {
         min-width: 80px;
         float: left;
