@@ -241,9 +241,7 @@ div.highlightTextIn a:hover:before {
     /* to ensure "hero" will expand to full width when expanded. */
 }
 
-#hero, #hero2 h1,
-h2,
-h3 {
+#hero, #hero2, h1, h2 {
     text-align: center;
     /* Centers text */
 }
@@ -286,7 +284,7 @@ h4 {
 svg #draw {
     stroke-dasharray: 500;
     stroke-dashoffset: 500;
-    animation: line-anim 8s ease forwards;
+    animation: line-anim 6s ease forwards;
 }
 
 /*// Keyframes //*/
@@ -347,7 +345,9 @@ Medium devices (640px and larger)
     .navtoggle li:not(:last-child) {
         display: inline-block;
     }
-   
+    .navtoggle li:last-child {
+        display: none;
+    }
     .logo {
         min-width: 80px;
         float: left;
