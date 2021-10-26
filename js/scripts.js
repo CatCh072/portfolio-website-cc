@@ -11,6 +11,6 @@ function menuToggle() {
         x.className += ' responsive';
     } else {
         x.className = 'navtoggle';
-    }    
+    }
 }
 //Exercise 2.3-JavaScript Libraries & Plugins-Task

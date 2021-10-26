@@ -56,11 +56,11 @@ a {
 
 a:visited {
     /* visited link */
-    color: #7f7f7f;
+    color: #000000;
 }
 
 a:hover {
-    color: #191919;
+    color: #000000;
     font-size: 135%;
     /* enlarge text when hovering over a link */
 }
@@ -78,7 +78,7 @@ a:focus {
 .button {
     display: inline-block;
     /* since the <a> tag is inline by default, we need to change this to inline-block */
-    background-color: #e5e5e5;
+    background-color: #cfecff;
     color: #000000;
     /* needed to override the default link color */
     font-weight: 400;
@@ -97,8 +97,8 @@ a:focus {
 }
 
 .button.contact {
-    background-color: #e5e5e5;
-    color: #191919;
+    background-color: #cfecff;
+    color: #000000;
     text-transform: uppercase;
     border: 2px solid #7f7f7f;
 }
@@ -178,6 +178,7 @@ nav > ul > li > a {
 .navtoggle, .navtoggle.responsive {
     position: relative;
 }
+
 /* hamburger menu */
 .navtoggle li .icon {
     position: absolute;
@@ -282,19 +283,19 @@ h4 {
 /*// Elements to Animate //*/
 
 svg #draw {
-    stroke-dasharray: 500;
+    stroke-dasharray: 850;
     stroke-dashoffset: 500;
-    animation: line-anim 6s ease forwards;
+    animation: line-anim 5s ease forwards;
 }
 
 /*// Keyframes //*/
 
 @keyframes line-anim {
     from {
-        stroke-dashoffset: 0;
+        stroke-dashoffset: 1000;
     }
     to {
-        stroke-dashoffset: 1000;
+        stroke-dashoffset: 0;
     }
 }
 
@@ -348,6 +349,7 @@ Medium devices (640px and larger)
     .navtoggle li:last-child {
         display: none;
     }
+
     .logo {
         min-width: 80px;
         float: left;
@@ -370,10 +372,6 @@ Medium devices (640px and larger)
     }
     .work {
         display: inline-block;
-    }
-
-    footer {
-        width: screen;
     }
     .left-col,
     .center-col,
