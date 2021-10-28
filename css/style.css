@@ -20,11 +20,13 @@ h4 {
 h1 {
     font-size: 2.75em;
     font-weight: 700;
+    text-align: center;
 }
 
 h2 {
     font-size: 2.25em;
     font-weight: 700;
+    text-align: center;
 }
 
 h3 {
@@ -49,9 +51,12 @@ a {
 }
 #footer {
     position: relative;
-    height: 100px;
-    margin-top: -100px;
+    height: 80px;
+    margin-top: -5px;
     clear: both;
+}
+#contact {
+    text-align: center;
 }
 
 a:visited {
@@ -67,7 +72,7 @@ a:hover {
 
 a:active {
     /* selected link */
-    color: #000000;
+    color: #323232;
 }
 
 a:focus {
@@ -232,7 +237,9 @@ div.highlightTextIn a:hover:before {
     /* to ensure that the margins of every element in "hero" will only affect elements inside "hero" */
     width: 100%;
     /* to ensure "hero" will expand to full width when expanded. */
+    text-align: center;
 }
+
 #hero2 {
 	padding: 100px 0;
     /* add top and bottom padding to override normalize 0.67em margin */
@@ -240,11 +247,19 @@ div.highlightTextIn a:hover:before {
     /* to ensure that the margins of every element in "hero" will only affect elements inside "hero" */
     width: 100%;
     /* to ensure "hero" will expand to full width when expanded. */
-}
-
-#hero, #hero2, h1, h2 {
     text-align: center;
-    /* Centers text */
+}
+#hero3 {
+	padding: 100px 0;
+    /* add top and bottom padding to override normalize 0.67em margin */
+    display: inline-block;
+    /* to ensure that the margins of every element in "hero" will only affect elements inside "hero" */
+    width: 100%;
+    /* to ensure "hero" will expand to full width when expanded. */
+    text-align: center;
+}
+#work h2 {
+    text-align: left;
 }
 
 main {
@@ -253,6 +268,11 @@ main {
 
 ul.b {
     list-style-type: square;
+}
+.divider {
+    width: 10px;
+    height: auto;
+    display: inline-block;
 }
 
 #oliveintro span {
@@ -363,6 +383,9 @@ Medium devices (640px and larger)
     }
     .col-md-6 {
         width: 50%;
+    }
+    .col-md-4 {
+        width: 33%;
     }
 
     .container {

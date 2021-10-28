@@ -36,7 +36,7 @@
                         <ul class="navigation">
                             <li><a href="index.html">Work</a></li>
                             <li><a href="about.html">About Me</a></li>
-                            <li><a href="files/sample-cv.pdf" target="_blank">Resume</a></li>
+                            <li><a href="files/sample-cv.pdf" download target="_blank">Resume</a></li>
                             <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
                             <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
                         </ul>
@@ -48,59 +48,95 @@
         <main>
             <!-- For title & image -->
             <div id="hero2">
-                <div class="container">
-                    <h1>ABOUT ME</h1>
-                    <picture>
-                        <img src="img/cc-vc_image_w_nose.png" alt="My Image" />
-                    </picture>
-                </div>
-            </div>
-
-            <div class="row">
+                <h1>About me</h1>
+                <div class="row">
                 <!-- open row that holds (2) columns -->
-                <!-- information about self -->
-                <div class="col-md-6 col-lg-7">
-                    <div class="project-wrapper">
+                    <div class="col-md-6 col-lg-7">
+                        <div class="project-wrapper">
                         <!-- open first column -->
-                        <h2>My Story</h2>
-                        <!-- heading for My Story -->
-                        <p>
-                            I studied at NYU with a concentration in Fine Arts (Studio Art) learning the fundamentals of structure, processes and creativity. I went on to work for a luxury goods company, where I worked in Public Relations. My
-                            projects included, but were not limited to, working with markets worldwide, collaborating in the development of processes for various events, execution of events, working with various departments from Product
-                            Development to Senior Management. I also collaborated with the development of their press website, which gave me an introduction to HTML.
-                        </p>
-                        <!-- end paragraph -->
-                        <p>
-                            <!-- open paragraph(optional) -->
-                            Some of my interests include traveling, building, fixing and creating things, organizing, baking, and playing tennis. Currently, I’m enjoying crocheting and reading and watching mysteries.
-                        </p>
-                        <!--end paragraph -->
-                        <a href="files/sample-cv.pdf" download target="_blank" class="button">Download my CV</a>
+                            <picture>
+                                <img src="img/cc-vc_image_w_nose.png" alt="My Image" />
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-5">
+                        <div class="project-wrapper">
+                        <!-- information about self -->
+                            <h2>My Story</h2>
+                            <!-- heading for My Story -->
+                            <p>
+                                I studied at NYU with a concentration in Fine Arts (Studio Art) learning the fundamentals of structure, processes and creativity. I went on to work for a luxury goods company, where I worked in Public Relations. My
+                                projects included, but were not limited to, working with markets worldwide, collaborating in the development of processes for various events, execution of events, working with various departments from Product
+                                Development to Senior Management. I also collaborated with the development of their press website, which gave me an introduction to HTML.
+                            </p>
+                            <!-- end paragraph -->
+                            <p>
+                                <!-- open paragraph(optional) -->
+                                Some of my interests include traveling, building, fixing and creating things, organizing, baking, and playing tennis. Currently, I’m enjoying crocheting and reading and watching mysteries.
+                            </p>
+                            <!--end paragraph -->
+                        </div>
                     </div>
                 </div>
-                <!-- end first column -->
+            </div>
+            <div class="container">
                 <!-- information about skills & tools -->
-                <div id="skills" class="col-md-6 col-lg-5">
+                <div id="skills">
                     <div class="project-wrapper">
                         <!-- open second column (used for Skills and Tools) -->
                         <h2>Skills & Tools</h2>
                         <!-- heading for project -->
-                        <h3>Relevant Skills</h3>
-                        <!-- heading for project -->
-                        <ul>
-                            <!-- list of skills -->
-                            <li><p>skill 1</p></li>
-                            <li><p>skill 2</p></li>
-                            <li><p>skill 3</p></li>
-                        </ul>
-                        <h3>Tools I Use</h3>
-                        <!-- heading for project -->
-                        <ul>
-                            <!-- list of tools -->
-                            <li><p>tools 1</p></li>
-                            <li><p>tools 2</p></li>
-                            <li><p>tools 3</p></li>
-                        </ul>
+                        <div class="row">
+                            <h3 style="margin-bottom: 0em;">Relevant Skills</h3>
+                            <!-- heading for project -->
+                            <ul style="margin:0em">
+                                <div class="col-md-6 col-lg-7">
+                                    <div class="project-wrapper">
+                                        <!-- list of skills -->
+                                        <li><p>Prototyping, Wirefranming, User Flows, Mockups</p></li>
+                                        <li><p>User Research, User Testing, Persona building</p></li>
+                                        <li><p>Agile</p></li>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-5">
+                                    <div class="project-wrapper">
+                                        <li><p>Information architecture</p></li>
+                                        <li><p>Application development (basic)</p></li>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <h3 style="margin-bottom: 0em;">Tools I Use...</h3>
+                            <!-- heading for project -->
+                            <ul style="margin: 0em;">
+                                <!-- list of tools -->
+                                <div class="col-md-4 col-lg-4">
+                                    <div class="project-wrapper">
+                                        <li><p>Adobe Photoshop</p></li>
+                                        <li><p>Adobe Xd</p></li>
+                                        <li><p>Balsamiq</p></li>
+                                        <li><p>Figma</p></li>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-lg-4">
+                                    <div class="project-wrapper">
+                                        <li><p>Invision</p></li>
+                                        <li><p>OptimalSort</p></li>
+                                        <li><p>Sketch</p></li>
+                                        <li><p>UsabilityHub</p></li>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-lg-4">
+                                    <div class="project-wrapper">
+                                        <li><p>Vidyard</p></li>
+                                        <li><p>Google apps</p></li>
+                                        <li><p>Mircosoft Office</p></li>
+                                        <li><p>Apple iWork</p></li>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <!-- end second column -->
@@ -157,21 +193,18 @@
         <footer id="footer">
             <div id="contact" class="container">
                 <h2>Get in Touch</h2>
-                <p>Do you like my work and want to discuss opportunities? Please get in touch. Call: <a href="tel:123-456-7890">123-456-7890</a> or Skype me at <a href="skype:hello.careerfoundry">hello.careerfoundry</a></p>
+                <p>Do you like my work and want to discuss opportunities? Please get in touch. </p>
                 <div>
+                    <!-- Email -->
                     <a href="mailto:office@careerfoundry.com" class="button contact">Email me</a>
-                </div>
-                <!-- Social Media Layout -->
-                <div>
-                    <br>
+                    <!-- space between buttons -->
+                    <div class="divider"> </div>
+                    <!-- Social Media Layout -->
                     <a href="https://www.linkedin.com" target="_blank">
-                        <i class="fab fa-linkedin-in" style="font-size: 22px;"></i>
-                    </a>
-                    <a href="https://twitter.com" target="_blank">
-                        <i class="fab fa-twitter" style="font-size: 22px;"></i>
+                        <i class="fab fa-linkedin" style="font-size: 30px;"></i>
                     </a>
                 </div>
-                <p>Copyright NAME 2021</p>
+                <p>Copyright Catherine Choi 2021</p>
             </div>
         </footer>
         
