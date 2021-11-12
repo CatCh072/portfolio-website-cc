@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="author" content="Catherine Choi" />
+        <meta name="description" content="UX portfolio projects case studies about contact" />
+        <title>Word Book</title>
+        <!-- favicon -kitcode from fontawesome -->
+        <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png" />
+        <link rel="manifest" href="img/favicon/site.webmanifest" />
+        <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
+        <!-- social media icons -->
+        <script src="https://kit.fontawesome.com/1da6c55f42.js" crossorigin="anonymous"></script>
+        <!-- viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- css -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-CGDHKGM697"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-CGDHKGM697');
+        </script>
+    </head>
+
+    <body>
+        <!-- For the header -->
+        <header>
+            <!-- For the navigation -->
+            <div class="container highlightTextOut">
+                <div class="navtoggle" id="myNavtoggle">
+                    <a href="index.html"><img class="logo" src="img/logo-sq.png" alt="C" /></a>
+                    <nav>
+                        <ul class="navigation">
+                            <li><a href="index.html">Work</a></li>
+                            <li><a href="about.html">About Me</a></li>
+                            <li><a href="files/choi-catherine-resume.pdf" target="_blank">Resume</a></li>
+                            <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+                            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div id="hero3">
+                <div class="container">
+                    <!-- For the hero section -->
+                    <h1>Word Book</h1>
+                    <h2>Let's have fun learning new words!</h2>
+                    <h3 style="position: center;">A vocabulary mobile app for children</h3>
+                    <br>
+                    <picture>
+                        <img src="img/wordbook/wb-fivescreens.png" alt="My Image" />
+                    </picture>
+                </div>
+            </div>
+            <div class="container">
+                <!-- intro -->
+                <ul>
+                    <li><h4>Children can add words and word lists to their dictionary, study with flashcards and play games with their words.</h4></li>
+                    <li><h4>Parents can monitor their child's dictionary and account.</h4></li>
+                    <li><h4>Teachers can share their word lists with their students so they can study them on their own.</h4></li>
+                </ul>
+            </div>
+
+            <div id="wb-project"> 
+            <!-- project intro challenge -->
+                <div class="container">
+                    <h2>The Challenge</h2>
+                    <div class="row"> 
+                        <div class="col-md-6 col-lg-7">
+                        <!-- open first column (used for image) -->
+                            <div class="project-wrapper">
+                                <h4>The challenge was to create a vocabulary 
+                                    learning application for our younger users.  
+                                    They need a way to study vocabulary words in 
+                                    an organized and engaging manner.  Some kids 
+                                    found it boring to study from books and 
+                                    cumbersome to carry aound study materials.
+                                </h4>
+                                <br><br>
+                                <h4><b>Client:</b>&ensp;Career Foundry - Case Study</h4>
+                                <br>
+                                <h4><b>Duration:</b>&ensp;Dec 2020 - Jan 2021</h4> 
+                            </div>
+                        </div>
+                        <!-- end first column -->
+                        <div class="col-md-6 col-lg-5">
+                            <div class="project-wrapper">
+                                <h4><b>Role:</b></h4>
+                                <ul style="margin-block-start:0em;">
+                                    <li><h4>UX Researcher</h4></li>
+                                    <li><h4>UX Designer</h4></li>
+                                    <li><h4>UI Designer</h4></li>
+                                </ul>
+                                <br>
+                                <h4><b>Tools Used:</b></h4>
+                                <ul style="margin-block-start:0em;">
+                                    <li><h4>Pen & Papaer</h4></li>
+                                    <li><h4>diagrams.net (draw.io)</h4></li>
+                                    <li><h4>Marvel</h4></li>
+                                    <li><h4>Figma</h4></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- end of second column -->
+                    </div>
+                </div>
+            </div>
+            <div id="wb-process">  
+                <div class="container">
+                    <h2>The Process</h2>
+                    <picture>
+                        <img src="img/wordbook/wb-processchart.png" alt="Lean UX chart" />
+                    </picture>
+                    <div class="row" style="margin-left: 90px;">
+                        <div class="col-md-4 col-lg-4">
+                            <div class="project-wrapper">
+                                <h3>Think</h3>
+                                <ul>
+                                    <li><a href="#wb-comp-aly">Competitive Analysis</a></li>
+                                    <li><a href="#wb-user-re">User Research</a></li>
+                                    <Li><a href="#wb-person">Persona</a></Li>
+                                    <li><a href="#wb-user-test-results">Test Results</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-md-4">
+                            <div class="project-wrapper">
+                                <h3>Make</h3>
+                                <ul>
+                                    <li><a href="#wb-task-flow">Task Analysis</a></li>
+                                    <li><a href="#wb-task-flow">User Flow</a></li>
+                                    <li><a href="#wb-low-fid">Wireframes/Low Low-Fidelity</a></li>
+                                    <li><a href="#wb-mid-fid">Mid-Fidelity</a></li>
+                                    <li><a href="#wb-high-fid">High-Fidelity</a></li>
+                                    <li><a href="#wb-design-lang">Design Language</a></li>
+                                    <li><a href="#wb-iterations">Iterations</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4">
+                            <div class="project-wrapper">
+                                <h3>Check</h3>
+                                <ul>
+                                    <li><a href="#wb-user-testing">Usability Testing</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- process end -->
+            <div>
+            <!-- competitive analysis -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-5" id="wb-comp-aly">
+                            <div class="project-wrapper">
+                                <h3><b>Competitive Analysis</b></h3>
+                                <p> A Competitive Analysis was first conducted on apps currently on app stores.  The market did not have any free mainstream children's 
+                                    vocabulary apps available so the following apps were used to see how people might use apps to learn and study new vocaulary.</p>
+                                <ul>
+                                    <li>Essentials</li>
+                                    <li>Vocabulary Buildier</li>
+                                    <li>Vocab Tool</li>
+                                </ul>
+                                <br>
+                                <div id="wb-comp-icons">
+                                    <picture>
+                                        <img src="img/wordbook/wb-comp-icons/wb-comp-essentials.png"alt="My Image" />
+                                    </picture>
+                                    <picture>
+                                        <img src="img/wordbook/wb-comp-icons/wb-comp-vocabbuilder.png"alt="My Image" />
+                                    </picture>
+                                    <picture>
+                                        <img src="img/wordbook/wb-comp-icons/wb-comp-vocabtool.png" alt="My Image" />
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-7" id="wb-user-re">
+                            <div class="project-wrapper">
+                                <h3><b>User Research</b></h3>
+                                <p>User Research interviews were then conducted on 5 participants to understand how a child might learn new workds.  These interviews provided insight 
+                                    to how to build a better learning experience for our users.  I was surprised to learn that they didn't currently use an app for studying vocabulary.</p>
+                                <p>Grade range: 2nd Grade to 8th Grade</p>
+                                <p>Here are the results from the interviews listed in their point of view.</p>
+                                <picture>
+                                    <img src="img/wordbook/wb-userresearch.png" alt="My Image" />
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- competitive analysis end -->
+            <div id="wb-person">
+            <!-- persona -->
+                <div class="container">
+                    <h3><b>Persona</b></h3>
+                    <p>Using the information from Competitive Research and User Research, a persona was then created to remind me of who my potential user will be and what her needs were.
+                        This helped greatly to empathize, understand and to try to see things from my user's point of view.</p>
+                    <p>Please meet...</p>
+                    <div class="project-wrapper">
+                        <picture>
+                            <img src="img/wordbook/wb-persona.png" alt="My Image" />
+                        </picture>
+                    </div>
+                </div>
+            </div>
+            <!-- persona end -->
+            <div id="wb-task-flow">
+            <!-- task-flow -->
+                <div class="container">
+                    <h3><b>Task Analysis & User Flow</b></h3>
+                    <p>To better understand how Sophia will engage and navigate through my product, information architecture was created with Task Analyses and User Flows. </p>
+                    <div class="row">
+                        <div class="col-md-4 col-lg-4">
+                            <div class="project-wrapper">
+                                <picture>
+                                    <img src="img/wordbook/wb-taskflow/wb-taskflow1.png" alt="My Image" />
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4">
+                            <div class="project-wrapper">
+                                <picture>
+                                    <img src="img/wordbook/wb-taskflow/wb-taskflow2.png" alt="My Image" />
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4">
+                            <div class="project-wrapper">
+                                <picture>
+                                    <img src="img/wordbook/wb-taskflow/wb-taskflow3.png" alt="My Image" />
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- tasks-flow end -->
+            <div id="wb-low-fid">
+                <!-- low-fidelity-wireframe -->
+                <div class="container">
+                    <h3><b>Low-Fidelity Wireframes</b></h3>
+                    <p>With all the information collected, a Low Fidelity Wireframe was then created to gage what Word Book might look like.</p>
+                    <div class="row"> 
+                        <div class="col-md-4 col-lg-4">
+                            <div class="project-wrapper">
+                                <picture>
+                                    <img src="img/wordbook/wb-lfwireframe/wb-lfp1.png" alt="My Image" />
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4">
+                            <div class="project-wrapper">
+                                <picture>
+                                    <img src="img/wordbook/wb-lfwireframe/wb-lfp2.png" alt="My Image" />
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4">
+                            <div class="project-wrapper">
+                                <picture>
+                                    <img src="img/wordbook/wb-lfwireframe/wb-lfp3.png" alt="My Image" />
+                                </picture>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+            <!-- low-fidelity-wireframe end-->
+            <div id="wb-user-testing">
+            <!-- user-testing -->
+                <div class="container">
+                    <h3><b>User Testing</b></h3>
+                    <p>To test the usability and features of Word Book app, User Testing was then conducted on 5 participants. They were given scenarios and asked tasks to complete.</p>
+                    <p>Demographics: Age 8-14, metropolitan area</p>
+                    <p>Here are the results from testing</p>
+                    <div class="project-wrapper" id="wb-user-test-results">
+                        <picture>
+                            <img src="img/wordbook/wb-usertest-results.png" alt="My Image" />
+                        </picture>
+                    </div>
+                </div>
+            </div>
+            <!-- user-testing end -->
+            <div id="wb-iterations">
+            <!-- iterations -->
+                <div class="container">
+                    <h3><b>Iterations</b></h3>
+                    <p>Using the findings from User Testing, iterations were then made to improve Word Book.</p>
+                    <div class="project-wrapper">
+                        <picture>
+                            <img src="img/wordbook/wb-usertest-iterations.png" alt="My Image" />
+                        </picture>
+                    </div>
+                </div>
+            </div>
+            <!-- user-testing end -->
+            <div id="wb-mid-fid">
+             <!-- mid-fid -->
+                <div class="container">
+                    <h3><b>Mid-Fidelity Prototype</b></h3>
+                    <p>A Mid-Fidelity Prototype was then created to test functional features and to see a possible navigation and layout.</p>
+                      <div class="row">  
+                        <div class="col-md-4 col-lg-4">
+                            <div class="project-wrapper">
+                                <picture>
+                                    <img src="img/wordbook/wb-mfp/wb-mfp1.png" alt="My Image" />
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4">
+                            <div class="project-wrapper">
+                                <picture>
+                                    <img src="img/wordbook/wb-mfp/wb-mfp2.png" alt="My Image" />
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4">
+                            <div class="project-wrapper">
+                                <picture>
+                                    <img src="img/wordbook/wb-mfp/wb-mfp3.png" alt="My Image" />
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- mid-fid end -->
+            <div id="wb-design-lang">
+             <!-- design -->
+                <div class="container">
+                    <h3><b>Design Language</b></h3>
+                    <p>UI was added not only to bring aesthetics but also to bring in efficiency and accessibility to Word Book.</p>
+                    <div class="project-wrapper">
+                        <picture>
+                            <img src="img/wordbook/wb-ui.png" alt="My Image" />
+                        </picture>
+                    </div>
+                </div>
+            </div>
+            <!-- design end -->
+            <div id="wb-high-fid">
+            <!-- high-fid --> 
+                <div class="container">
+                    <h3><b>High-Fidelity Prototype</b></h3>
+                    <p>Last but not least, a high-fidelity prototype was created to get a more realistic idea of how Word Book would look and function.  
+                        This would be ideal for another usability test to find any pain points.</p>
+                    <div class="row">   
+                        <div class="col-md-4 col-lg-4">
+                            <div class="project-wrapper">
+                                <picture>
+                                    <img src="img/wordbook/wb-hfp/wb-hfp1.png" alt="My Image" />
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4">
+                            <div class="project-wrapper">
+                                <picture>
+                                    <img src="img/wordbook/wb-hfp/wb-hfp2.png" alt="My Image" />
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4">
+                            <div class="project-wrapper">
+                                <picture>
+                                    <img src="img/wordbook/wb-hfp/wb-hfp3.png" alt="My Image" />
+                                </picture>
+                            </div>
+                        </div>  
+                    </div> 
+                </div>
+            </div>
+            <br>
+            <div id="wb-end">
+                <div class="container">
+                    <h2>The Goal</h2>
+                    <p>Word Book, a vocabulary learning application was created that lets our younger users have a personalized dictionary, flashcards and game options to help them study.
+                        This application also gives access to teachers and parents to monitor, add and edit their student's/child's words as needed.
+                    </p>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-5">
+                            <div class="project-wrapper">
+                                <h4><b>Next steps...</b></h4>
+                                <ul>
+                                    <li>Conduct additional usability testing (if time is permitted)</li>
+                                    <li>Create a more comprehensive Design Language System</li>
+                                    <li>Additional Iterations</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-7">
+                            <div class="project-wrapper">
+                                <h4><b>Future versions of Word Book</b></h4>
+                                <p>Possible rewards for children that use Word Book app often.</p>
+                                <ul>
+                                    <li>New game/s relating to words, spelling, vocabulary</li>
+                                    <li>Interface packages- different colors, night mode, etc.</li>
+                                    <li>Word Book Icon- new book covers</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <h4><b>What I have learned...</b></h4>
+                    <ul>
+                        <li>This project was completed as a part of CareerFoundry's Intro to UX Design course.  Through this course, I have learned the basics of design processes,skills, and tools that is needed to become a UX Designer.</li>
+                        <li>Through the process of building Word Book, I found how important my Persona was.  I would add signifiers on my own accord, only to be reminded that this app was not for me but for my user.  It was crucial to be focused on my user at all times and to always try to see things from her perspective.</li>
+                        <li>Competitive Research and User Research, helped immensely to understand what was currently available for kids, what they use on a daily basis and what was missing for them.</li>
+                    </ul>
+                    <!-- prototype link -->
+                    <h3 style="text-align: center; margin-block-end: 0em;">To preview the mobile prototype,</h3> 
+                    <h3 style="text-align: center; margin-block-start: 0em;"><a href="https://www.figma.com/proto/Iy3wfzwUrJ84EA06oYXTYS/WORD-BOOK?page-id=0%3A1&node-id=3%3A2&starting-point-node-id=3%3A2" target="_blank" style="text-decoration: underline;"> please click here.</a></h3>
+                </div>
+            </div>
+        </main>
+
+
+        <!-- For the footer -->
+        <footer>
+            <div id="contact" class="container">
+                <h2 style="margin-top: 2em;">Get in Touch</h2>
+                <p>Do you like my work and want to discuss opportunities? Please get in touch. </p>
+                <div id="contact-buttons">
+                    <!-- Email -->
+                    <a href="mailto:cchoi.ux@gmail.com" class="button contact">Email me</a>
+                    <!-- space between buttons -->
+                    <div class="divider"> </div>
+                    <!-- Social Media Layout -->
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <i class="fab fa-linkedin" style="font-size: 300%;"></i>
+                    </a>
+                </div>
+                <p>© 2021 | Catherine Choi | All rights reserved</p>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

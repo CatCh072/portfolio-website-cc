@@ -58,6 +58,9 @@ a {
 #contact {
     text-align: center;
 }
+#contact-buttons a {
+    vertical-align: middle;
+}
 
 a:visited {
     /* visited link */
@@ -331,6 +334,17 @@ svg #draw {
 .project-wrapper {
     padding: 20px;
 }
+
+#wb-comp-icons img {
+    width: 20%;
+    height: auto;
+    padding: .5em;
+    display: inline-block;
+}
+#wb-process li {
+    text-decoration: underline;
+}
+
 
 /* ==============================
 Medium devices (640px and larger)
