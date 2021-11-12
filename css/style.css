@@ -60,6 +60,7 @@ a {
 }
 #contact-buttons a {
     vertical-align: middle;
+    display: inline-block;
 }
 
 a:visited {
