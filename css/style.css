@@ -460,6 +460,12 @@ button[type="submit"]:hover {
     }
 }
 
+/*// fix formatting for Safari //*/
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
 
 /* ==============================
 Medium devices (640px and larger)
